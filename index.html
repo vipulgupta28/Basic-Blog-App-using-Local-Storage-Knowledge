@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <button onclick="view()">View Blogs</button>
+  <button onclick="Write()">Write Blog</button>
+
+  <div class="read" id="read">
+    <h1>Your Blogs</h1>
+  </div>
+
+  <div class="wr" id="wr">
+    <input type="text" placeholder="Topic" id="topic"></input>
+    <input type="text" placeholder="Write Content" id="content"></input>
+    <button onclick="publish()">Publish</button>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
